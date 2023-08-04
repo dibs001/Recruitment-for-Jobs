@@ -1,0 +1,49 @@
+/* UserProfileForm.css */
+.user-profile-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 100px; /* Use min-height for textarea responsiveness */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles using Bootstrap Classes */
+  @media (max-width: 768px) {
+    .user-profile-form {
+      padding: 1rem;
+    }
+  
+    textarea {
+      min-height: 80px;
+    }
+  
+    button {
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  
